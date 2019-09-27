@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Waybackify",
-	"description": "Open a page using Archive.org's Way Back Machine | Icon made from http://www.onlinewebfonts.com/icon is licensed by CC BY 3.0)",
+	"description": "Quickly open pages using Archive.org's Way Back Machine",
 	"version": "0.1.6.7",
 	"permissions": ["contextMenus", "tabs"],
 	"icons": {
