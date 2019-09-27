@@ -1,10 +1,14 @@
 {
 	"manifest_version": 2,
 	"name": "Waybackify",
-	"description": "Open a page using Archive.org's Way Back Machine",
-	"version": "0.1.6.4",
+	"description": "Open a page using Archive.org's Way Back Machine | Icon made from http://www.onlinewebfonts.com/icon is licensed by CC BY 3.0)",
+	"version": "0.1.6.7",
 	"permissions": ["contextMenus", "tabs"],
-	"icons": {"16": "icon-bitty.png"},
+	"icons": {
+		"16": "icon-bitty.png",
+		"48": "icon-medium.png",
+		"128": "icon-large.png"
+	},
 	"background": {"scripts": ["main.js"]},
 	"browser_action": {}
 }
