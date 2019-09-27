@@ -5,12 +5,9 @@ openWayBack = function(){
 	});
 };
 
-openWayBackLink = function(){
-	alert("Yes");
-//	chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function (tabs) {
-//		var url = tabs[0].url;
-//		window.open("http://web.archive.org/web/*/"+url);
-//	});
+openWayBackLink = function(e){
+	var link = e.linkUrl;
+	window.open("http://web.archive.org/web/*/"+link);
 };
 
 chrome.browserAction.onClicked.addListener(function(tab) {
